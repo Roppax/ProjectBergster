@@ -1,0 +1,38 @@
+.settings-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background-color: #2D2F34;
+    border-radius: 8px;
+    border: 2px solid #43454A;
+  }
+  
+  .webcam-control {
+    display: flex;
+    align-items: center;
+  }
+  
+  .webcam-label {
+    color: #FFFFFF;
+    margin-right: 16px;
+  }
+  
+  .webcam-toggle {
+    cursor: pointer;
+    transition: color 0.3s;
+    color: #4CAF50; 
+  }
+  
+  .webcam-toggle.on {
+    color: #F44336; 
+  }
+  
+  .settings-icon {
+    cursor: pointer;
+  }
+  
+  .countdown-button {
+    color: white;
+    padding: 8px 16px; /* Adjust padding as needed */
+  }
+  

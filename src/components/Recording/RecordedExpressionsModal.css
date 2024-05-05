@@ -1,0 +1,26 @@
+.chart {
+  width: 900px;
+  height: 700px;
+}
+
+@media only screen and (max-width: 930px) {
+  .chart {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .chart {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+.tooltip {
+  background-color: #EFF7F6 !important;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}

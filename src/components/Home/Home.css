@@ -1,0 +1,47 @@
+img {
+  background-color: #022B3A;
+  border: none;
+  outline: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  border-radius: 0.5rem;
+}
+
+
+.banner-description {
+  font-family: 'Raleway', sans-serif !important;
+  color: #022b3a !important;
+}
+
+
+.banner-title {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.banner-left {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center; 
+  margin-top: 0; 
+  padding: 20px; 
+}
+
+.banner-description,
+.banner-run-github span,
+.banner-run-github svg {
+  color: white !important;
+}
+
+.info-popout {
+  position: fixed;
+  z-index: 100; 
+}
+
+.banner-run {
+  z-index: 1; 
+}
